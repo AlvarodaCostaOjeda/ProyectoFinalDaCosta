@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.cartEmpty {
+  text-align: center;
+  border-style: groove;
+}
+
+.cartEmptyTitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.cartEmptyP {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  padding-bottom: 20px;
+}
+
+.checkOutRecepie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-right: 30px;
+}
+
+.quitButton {
+  background-color: #b8b8b8; /* Green */
+  width: 5%;
+  margin-left: 100px;
+}
+
+.totalApagar {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+.contenedorBotonesCarrito {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorBoton {
+  padding-top: 20px;
+}
+
+.vaciarCarrito {
+  background-color: #bb0101; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

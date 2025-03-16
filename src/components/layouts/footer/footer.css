@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: #ffd4d4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.redes {
+  margin-left: auto;
+  margin-right: 0;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+}

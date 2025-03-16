@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.counterComponent {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.quitar {
+  background-color: #a7028b; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.agregar {
+  background-color: #e2e2e2; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+.agregarAlCarrito {
+  background-color: #e692c0; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.agregarAlCarrito:hover {
+  background-color: #c0c0c0;
+  border-radius: 5%;
+  height: "75px";
+  margin-bottom: 0;
+}
+
+.agregar:hover {
+  background-color: #c0c0c0;
+  border-radius: 10%;
+  height: "75px";
+  margin-bottom: 0;
+}
+
+.quitar:hover {
+  background-color: #c0c0c0;
+  border-radius: 10%;
+  height: "75px";
+  margin-bottom: 0;
+}
+
+.cantidad {
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}

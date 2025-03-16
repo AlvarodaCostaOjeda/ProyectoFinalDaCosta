@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  background-color: #ffd4d4;
+}
+
+.categorias {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  height: 100%;
+  color: rgb(0, 0, 0);
+  margin-left: 0;
+  margin-right: auto;
+  text-decoration: none;
+  margin-top: 7px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cat {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
